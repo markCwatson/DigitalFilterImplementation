@@ -22,7 +22,7 @@ void FilterInit(Filter *filter, double *coefficients, double *dataBuffer, const 
     }
 }
 
-double FilterImplementation(Filter *filter, double input)
+double Filter(Filter *filter, double input)
 {
     double result;
     uint8_t getIndex = filter->putIndex;

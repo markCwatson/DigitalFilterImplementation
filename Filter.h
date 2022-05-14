@@ -35,7 +35,7 @@ void FilterInit(Filter *filter, double *coefficients, double *dataBuffer, const 
 *
 *  \returns The filtered output at current time.
 */
-double FilterImplementation(Filter *filter, double input);
+double Filter(Filter *filter, double input);
 
 /**
 *  \brief Clears the data buffer for digital filter.
